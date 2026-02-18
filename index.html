@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Restaurant Website</title>
+    <style>
+        body {
+             margin: 0;
+            font-family: Georgia, serif;
+        }
+        .welcome {
+            height: 150vh;
+            background-image:url("https://images.unsplash.com/photo-1550547660-d9450f859349");
+            background-size: 200%;
+            background-position: center;
+            color: white;
+        }
+
+
+        .layer {
+            background: rgba(17, 5, 5, 0.6);
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 150px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 33px;
+            margin-bottom: 20px;
+        }
+
+        button {
+            padding: 12px 30px;
+            font-size: 15px;
+            background-color: white;
+            color:black;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: orangered;
+        }
+    </style>
+</head>
+<body>
+
+<div class="welcome">
+    <div class="layer">
+        <div>
+            <h1>Foodie Spot</h1>
+            <p>• Fresh • Tasty • Fast Delivery • Freshness in Every Bite</p>
+
+            <!-- Normal Mail ID Text -->
+            <p>Email: foodiespot@gmail.com</p>
+             <button>Order Here</button>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+    <meta charset="UTF-8">
+    <title>FOOD SHOP</title>
+    <link rel="stylesheet" href="styles.css type=text/css">
+</style>
+    <style>
+        body {
+            margin: 0;
+            font-family: Georgia, serif;
+            background-color:white;
+        }
+
+        /* Header */
+        .header {
+            background-color:rgb(175, 36, 83);
+            color:rgb(236, 230, 230);
+            padding: 15px 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .header h1 {
+            margin: 0;
+        }
+
+        .header input {
+            padding: 8px;
+            width: 250px;
+            border-radius: 5px;
+            border: none;
+        }
+        /* Food Cards */
+         .container { 
+            display: flex; 
+            flex-wrap: wrap; 
+            justify-content: center;
+            padding: 20px; 
+        }
+        .card {
+            background-color:black;
+            width: 250px;
+            margin: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px black;
+            overflow: hidden;
+        }
+
+        .card img {
+            width: 100%;
+            height: 160px;
+        }
+
+        .card-content {
+            padding: 15px;
+        }
+
+        .card-content h3 {
+            margin: 0;
+            color:cyan;
+             
+        }
+
+        .price {
+            color:gold;
+            font-weight: bold;
+            margin: 5px 0;
+        }
+
+        .card-content button {
+            width: 100%;
+            padding: 8px;
+            background-color:white;
+            color: black;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .card-content button:hover {
+            background-color:red;
+        }
+    </style>
+</head>
+<body><br>
+<!-- Food Items -->
+<div class="container">
+    <div class="card">
+        <img src="idly.jpg">
+        <div class="card-content">
+            <h3>Idly</h3>
+            <p class="price">₹50</p>
+            <button>Order Now</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="dosa.jpeg">
+        <div class="card-content">
+            <h3>Dosa</h3>
+            <p class="price">₹59</p>
+            <button>Order Now</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="Ven Pongal.webp">
+        <div class="card-content">
+            <h3>Ven Pongal</h3>
+            <p class="price">₹45</p>
+            <button>Order Now</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="khichadi.jpg">
+        <div class="card-content">
+            <h3>Khichadi</h3>
+            <p class="price">₹35</p>
+            <button>Order Now</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="burger.jpeg">
+        <div class="card-content">
+            <h3>Burger</h3>
+            <p class="price">₹149</p>
+            <button>Order Now</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="idiyapam.jpg">
+        <div class="card-content">
+            <h3>Idiyapam</h3>
+            <p class="price">₹70</p>
+            <button>Order Now</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="pizza.jpg">
+        <div class="card-content">
+            <h3>Pizza</h3>
+            <p class="price">₹199</p>
+            <button>Order Now</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="roasted chicken.webp">
+        <div class="card-content">
+            <h3>Roasted Chicken</h3>
+            <p class="price">₹399</p>
+            <button>Order Now</button>
+        </div>
+    </div>
+
+    <div class="card">
+       <img src="biriyani.jpg">
+        <div class="card-content">
+            <h3>Chicken Biriyani</h3>
+            <p class="price">₹249</p>
+            <button>Order Now</button>
+        </div>
+    </div>
+
+    <div class="card">
+       <img src="matton biriyani2.jpg">
+        <div class="card-content">
+            <h3>Mutton Biriyani</h3>
+            <p class="price">₹349</p>
+            <button>Order Now</button>
+        </div>
+    </div>
+
+    <div class="card">
+       <img src="mushroom biriyani.jpg">
+        <div class="card-content">
+            <h3>Mushroom Biriyani</h3>
+            <p class="price">₹279</p>
+            <button>Order Now</button>
+        </div>
+    </div>
+
+    <div class="card">
+       <img src="veg biriyani.jpg">
+        <div class="card-content">
+            <h3>Veg Biriyani</h3>
+            <p class="price">₹199</p>
+            <button>Order Now</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="veg soup.jpeg">
+        <div class="card-content">
+            <h3>Veg Soup</h3>
+            <p class="price">₹149</p>
+            <button>Order Now</button>
+        </div> 
+    </div>    
+
+    <div class="card">
+        <img src="mutton soup.jpg">
+        <div class="card-content">
+            <h3>Mutton Soup</h3>
+            <p class="price">₹199</p>
+            <button>Order Now</button>
+        </div> 
+    </div>    
+
+    <div class="card">
+        <img src="chicken soup.jpeg">
+        <div class="card-content">
+            <h3>Chicken Noodles Soup</h3>
+            <p class="price">₹159</p>
+            <button>Order Now</button>
+        </div>
+    </div> 
+    
+    <div class="card">
+        <img src="nandu soup.jpg">
+        <div class="card-content">
+            <h3>Nandu Soup</h3>
+            <p class="price">₹250</p>
+            <button>Order Now</button>
+        </div>
+    </div>    
+
+    <div class="card">
+        <img src="panner butter masala.jpeg">
+        <div class="card-content">
+            <h3>Panner Butter Masala</h3>
+            <p class="price">₹299</p>
+            <button>Order Now</button>
+        </div>
+    </div>
+
+    <div class="card">
+        <img src="Appam.webp">
+        <div class="card-content">
+            <h3>Appam</h3>
+            <p class="price">₹45</p>
+            <button>Order Now</button>
+        </div>
+    </div>
+
+    <div class="card">    
+        <img src="full meels.jpg">
+        <div class="card-content">
+            <h3>Full Meels</h3>
+            <p class="price">₹175</p>
+            <button>Order Now</button>
+        </div>
+    </div>
+
+    <div class="card">    
+        <img src="noodles - Copy.jpg">
+        <div class="card-content">
+            <h3>Noodles</h3>
+            <p class="price">₹145</p>
+            <button>Order Now</button>
+        </div>
+    </div>
+
+    <div class="card">    
+        <img src="chicken noodles.webp">
+        <div class="card-content">
+            <h3>Chicken Noodles</h3>
+            <p class="price">₹249</p>
+            <button>Order Now</button>
+        </div>
+    </div>
+
+    <div class="card">    
+        <img src="general-tso-chicken.webp">
+        <div class="card-content">
+            <h3>General-tso-chicken</h3>
+            <p class="price">₹259</p>
+            <button>Order Now</button>
+        </div>        
+    </div>
+
+    <div class="card">    
+        <img src="parota.jpeg">
+        <div class="card-content">
+            <h3>Parota</h3>
+            <p class="price">₹40</p>
+            <button>Order Now</button>
+        </div>
+    </div> 
+
+    <div class="card">    
+        <img src="Nool-parota.jpg">
+        <div class="card-content">
+            <h3>Nool Parotta</h3>
+            <p class="price">₹80</p>
+            <button>Order Now</button>
+        </div>
+    </div> 
+        
+    <div class="card">    
+        <img src="Kothuparotta.jpg">
+        <div class="card-content">
+            <h3>Kothu Parotta</h3>
+            <p class="price">₹70</p>
+            <button>Order Now</button>
+        </div>
+    </div> 
+
+    <div class="card">    
+        <img src="Mutton-Kothu-Parotta.webp">
+        <div class="card-content">
+            <h3>Muttai-Kothu-Parotta</h3>
+            <p class="price">₹100</p>
+            <button>Order Now</button>
+        </div>
+    </div>   
+    
+    <div class="card">    
+        <img src="chappathi.webp">
+        <div class="card-content">
+            <h3>Chappathi</h3>
+            <p class="price">₹55</p>
+            <button>Order Now</button>
+        </div>
+    </div>    
+    
+     <div class="card">    
+        <img src="puri.jpg">
+        <div class="card-content">
+            <h3>Puri</h3>
+            <p class="price">₹65</p>
+            <button>Order Now</button>
+        </div>
+    </div>    
+    
+    <div class="card">    
+        <img src="cauli flower.jpeg">
+        <div class="card-content">
+            <h3>Cauli Flower 65</h3>
+            <p class="price">₹90</p>
+            <button>Order Now</button>
+        </div>
+    </div>              
+
+    <div class="card">    
+        <img src="chicken 65.webp">
+        <div class="card-content">
+            <h3>Chicken 65</h3>
+            <p class="price">₹120</p>
+            <button>Order Now</button>
+        </div>
+    </div> 
+    
+    <div class="card">    
+        <img src="mushroom 65.jpg">
+        <div class="card-content">
+            <h3>Mushroom 65</h3>
+            <p class="price">₹80</p>
+            <button>Order Now</button>
+        </div>
+    </div>              
+
+    <div class="card">    
+        <img src="fish fry.jpg">
+        <div class="card-content">
+            <h3>Fish Fry</h3>
+            <p class="price">₹120</p>
+            <button>Order Now</button>
+        </div>
+    </div>              
+            
+            
